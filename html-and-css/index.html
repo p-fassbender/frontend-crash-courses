@@ -34,14 +34,29 @@
         laborum."
     </p>
 
+    <!-- table styling is all done with css now. some properties include border, cellpadding, cellspacing, width -->
     <style>
+        /* border */
         table,
         th,
         td {
-            border: 1px solid black
+            border: 1px black solid
+        }
+
+        /* cellpadding */
+        th,
+        td {
+            padding: 10px;
+        }
+
+        /* cellspacing */
+        table {
+            border-spacing: 5px;
+            width: 500px
         }
     </style>
     <table>
+        <caption>Campfire Visitors</caption>
         <tr>
             <th rowspan="8"> Visitors</th>
         </tr>
