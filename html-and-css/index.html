@@ -133,11 +133,22 @@
     <!-- FORMS -->
     <form>
         <label for="user">Username: </label>
-        <input type="text" name="user">
+        <input type="text" id="user" name="user">
+
         <label for="pass">Password: </label>
-        <input type="password" name="pass">
-        <label for="faveAnimal">What is your favorite animal?</label>
-        <input type="text" name="faveAnimal">
+        <input type="password" id="pass" name="pass">
+
+        <p>Which is your favorite animal?</p>
+        <input type="radio" name="faveAnimal" id="frog" value="frog"><label for="frog">frog</label>
+        <input type="radio" name="faveAnimal" id="crab" value="crab" checked><label for="crab">crab</label>
+        <input type="radio" name="faveAnimal" id="godzilla" value="godzilla"><label for="godzilla">godzilla</label>
+
+        <p>How do you get around?</p>
+        <input type="checkbox" name="transportation" id="walk" value="walk"><label for="walk">walk</label>
+        <input type="checkbox" name="transportation" id="skateboard" value="skateboard"><label for="skateboard">skateboard</label>
+        <input type="checkbox" name="transportation" id="bike" value="bike"><label for="bike">bike</label>
+        <input type="checkbox" name="transportation" id="car" value="car"><label for="car">car</label>
+
     </form>
 
 </body>
