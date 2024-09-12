@@ -131,24 +131,51 @@
     </dl>
 
     <!-- FORMS -->
-    <form>
+    <form action="">
+        <!-- text input -->
         <label for="user">Username: </label>
-        <input type="text" id="user" name="user">
+        <input type="text" id="user" name="user"> <br />
 
+        <!-- password input -->
         <label for="pass">Password: </label>
-        <input type="password" id="pass" name="pass">
+        <input type="password" id="pass" name="pass"><br />
 
-        <p>Which is your favorite animal?</p>
+        <!-- radio button input -->
+        Which is your favorite animal?
         <input type="radio" name="faveAnimal" id="frog" value="frog"><label for="frog">frog</label>
         <input type="radio" name="faveAnimal" id="crab" value="crab" checked><label for="crab">crab</label>
-        <input type="radio" name="faveAnimal" id="godzilla" value="godzilla"><label for="godzilla">godzilla</label>
+        <input type="radio" name="faveAnimal" id="godzilla" value="godzilla"><label
+            for="godzilla">godzilla</label><br /><br />
 
-        <p>How do you get around?</p>
+        <!-- checkbox input -->
+        How do you get around?
         <input type="checkbox" name="transportation" id="walk" value="walk"><label for="walk">walk</label>
-        <input type="checkbox" name="transportation" id="skateboard" value="skateboard"><label for="skateboard">skateboard</label>
+        <input type="checkbox" name="transportation" id="skateboard" value="skateboard"><label
+            for="skateboard">skateboard</label>
         <input type="checkbox" name="transportation" id="bike" value="bike"><label for="bike">bike</label>
-        <input type="checkbox" name="transportation" id="car" value="car"><label for="car">car</label>
+        <input type="checkbox" name="transportation" id="car" value="car"><label for="car">car</label><br /><br />
 
+        <!-- dropdown box select element -->
+        <label for="gender-select">Gender</label>
+        <select name="genders" id="gender-select">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <option value="noSay">I choose not to say</option>
+        </select><br /><br />
+
+        <!-- textarea  element-->
+        <label for="comments">Leave a comment: </label>
+        <textarea name="comment" id="comment" rows="4" cols="50"></textarea><br /><br />
+
+        <!-- submit input -->
+        <input type="submit" value="Submit">
+
+        <!-- reset input -->
+        <input type="reset" value="Reset">
+
+        <!-- button input -->
+        <input type="button" value="Click Me">
     </form>
 
 </body>
